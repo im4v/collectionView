@@ -15,6 +15,9 @@
 		A55DA6962056479D0057DF47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A55DA6952056479D0057DF47 /* main.m */; };
 		A55DA6A02056479D0057DF47 /* collectionViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A55DA69F2056479D0057DF47 /* collectionViewTests.m */; };
 		A55DA6AB2056479D0057DF47 /* collectionViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A55DA6AA2056479D0057DF47 /* collectionViewUITests.m */; };
+		A55DA6BA205649B70057DF47 /* HorizontalCollectionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A55DA6B9205649B70057DF47 /* HorizontalCollectionVC.m */; };
+		A55DA6BD205649D50057DF47 /* VerticalCollectionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A55DA6BC205649D50057DF47 /* VerticalCollectionVC.m */; };
+		A55DA6C0205652540057DF47 /* MixCollectionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A55DA6BF205652540057DF47 /* MixCollectionVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		A55DA6A62056479D0057DF47 /* collectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = collectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A55DA6AA2056479D0057DF47 /* collectionViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = collectionViewUITests.m; sourceTree = "<group>"; };
 		A55DA6AC2056479D0057DF47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A55DA6B8205649B70057DF47 /* HorizontalCollectionVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HorizontalCollectionVC.h; sourceTree = "<group>"; };
+		A55DA6B9205649B70057DF47 /* HorizontalCollectionVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HorizontalCollectionVC.m; sourceTree = "<group>"; };
+		A55DA6BB205649D50057DF47 /* VerticalCollectionVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VerticalCollectionVC.h; sourceTree = "<group>"; };
+		A55DA6BC205649D50057DF47 /* VerticalCollectionVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VerticalCollectionVC.m; sourceTree = "<group>"; };
+		A55DA6BE205652540057DF47 /* MixCollectionVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MixCollectionVC.h; sourceTree = "<group>"; };
+		A55DA6BF205652540057DF47 /* MixCollectionVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MixCollectionVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +115,12 @@
 				A55DA6892056479D0057DF47 /* ViewController.h */,
 				A55DA68A2056479D0057DF47 /* ViewController.m */,
 				A55DA68C2056479D0057DF47 /* Main.storyboard */,
+				A55DA6B8205649B70057DF47 /* HorizontalCollectionVC.h */,
+				A55DA6B9205649B70057DF47 /* HorizontalCollectionVC.m */,
+				A55DA6BB205649D50057DF47 /* VerticalCollectionVC.h */,
+				A55DA6BC205649D50057DF47 /* VerticalCollectionVC.m */,
+				A55DA6BE205652540057DF47 /* MixCollectionVC.h */,
+				A55DA6BF205652540057DF47 /* MixCollectionVC.m */,
 				A55DA68F2056479D0057DF47 /* Assets.xcassets */,
 				A55DA6912056479D0057DF47 /* LaunchScreen.storyboard */,
 				A55DA6942056479D0057DF47 /* Info.plist */,
@@ -266,7 +281,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A55DA68B2056479D0057DF47 /* ViewController.m in Sources */,
+				A55DA6C0205652540057DF47 /* MixCollectionVC.m in Sources */,
 				A55DA6962056479D0057DF47 /* main.m in Sources */,
+				A55DA6BA205649B70057DF47 /* HorizontalCollectionVC.m in Sources */,
+				A55DA6BD205649D50057DF47 /* VerticalCollectionVC.m in Sources */,
 				A55DA6882056479D0057DF47 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
