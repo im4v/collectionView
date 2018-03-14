@@ -1,13 +1,13 @@
 //
-//  MixCollectionVC.h
+//  BaseViewController.h
 //  collectionView
 //
-//  Created by zhangfuwei on 2018/3/12.
+//  Created by zhangfuwei on 2018/3/14.
 //  Copyright © 2018年 zhangfuwei. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface MixCollectionVC : UIViewController
+@interface BaseViewController : UIViewController
 
 @end

@@ -8,12 +8,6 @@
 
 #import "MixCollectionVC.h"
 
-#define SCREEN_WIDTH self.view.bounds.size.width
-#define SCREEN_HEIGHT (self.view.bounds.size.height-64)
-static CGFloat const kPaddingBig            = 50;
-
-static CGFloat const kPadding            = 15;
-
 @interface MixCollectionVC ()<UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout>
 
 /** 水平  */
@@ -36,19 +30,8 @@ static NSString * const reuseIdentifier = @"Cell";
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"水平竖直collectionView";
-    self.automaticallyAdjustsScrollViewInsets
     self.view.backgroundColor = [UIColor blueColor];
-//    UILabel *lab1 = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, kPadding)];
-//    UILabel *lab2 = [[UILabel alloc] initWithFrame:CGRectMake(0, SCREEN_HEIGHT/2+kPadding, SCREEN_WIDTH, kPadding)];
-//    lab1.text = @"HorizontalVC";
-//    lab1.textColor = [UIColor purpleColor];
-//
-//    lab2.text = @"VerticalVC";
-//    lab2.textColor = [UIColor purpleColor];
-//
-//
-//    [self.view addSubview:lab2];
-//    [self.view addSubview:lab1];
+
     [self.view addSubview:self.hCollectionView];
     [self.view addSubview:self.vCollectionView];
 }
